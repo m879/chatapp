@@ -1,0 +1,136 @@
+#body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+#navbox{
+    height: 50px;
+}
+.image-upload > input
+{
+    display: none;
+}
+
+#postbox{
+    /* position: relative; */
+  margin-top: -30px;
+}
+#card{
+    margin-top: 15px;
+}
+#commentbox{
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+}
+#status{
+    overflow-x: scroll;
+    height: 90px;
+    overflow-y: hidden;
+    background-color: white;
+    border: 1px solid gray;
+    border-bottom: none;
+    
+}
+#status img{
+    width:  50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px dotted red;
+    margin: 15px 10px 0px 10px;
+}
+
+#personmsg{
+    height: 450px;
+    background-color: white;
+    overflow-y: auto;
+}
+#personmsg div{
+   border: 1px solid lightgray;
+   background-color: white;
+   height: 60px;
+}
+#personmsg div:hover{
+    background-color: lightgray;
+}
+
+#personimg{
+    width:  30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 15px 10px 10px 10px;
+}
+#msgbox{
+    width: 100%;
+    height:410px;
+    background-color: whitesmoke;
+    overflow-y: auto;
+    border: 1px solid gray;
+}
+#send{
+    width:40%;
+    float: right;
+    clear: both;
+    /* background-color: lightgreen; */
+    margin-right: 2%;
+    margin-top: 2%;
+}
+#send p{
+    padding-left: 5%;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top:5%;
+    border-radius: 10px;
+    background-color: lightgreen;
+    border:1px solid gray;
+    line-height: 40px;
+}
+#send span{
+    background-color: white;
+    font-size:15px;
+    float: right;
+    margin-right: 5%;
+    line-height: normal;
+    margin-top: 5%;
+}
+#receive{
+    width: 40%;
+    clear: both;
+    background-color: lightseagreen;
+    float: left;
+    margin-left: 2%;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+#receive p{
+    font-size: 20px;
+    padding-left: 5%;
+    font-weight: bolder;
+}
+#profilebtn{
+    font-weight: bolder;
+}
+#profiledetails{
+    height: 540px;
+    overflow-y: auto;
+}
+#mypost{
+    overflow-y: auto;
+}
+#followers{
+    overflow-y: auto;
+}
+#following{
+    overflow-y: auto;
+}
+.blackButton{
+    background-color: black;
+    color: white;
+  }
+  
+  .whiteButton{
+    background-color: white;
+    color: black;
+  }
+  
