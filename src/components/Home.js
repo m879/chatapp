@@ -22,14 +22,14 @@ const Home = () => {
 
     // render() {
     return (
-       <div  className="py-5" style={{margin:'0%',padding:'0%',boxSizing:'border-box'}}>
+       <div  className="py-5" style={{margin:'0%',padding:'0%',boxSizing:'border-box',background:'blue',height:'100%'}}>
            <Container  className="my-5" >
     
             <Row className="py-5">
                <Col lg={3}></Col>
                 <Col xs={12} lg={6} className="py-5" >
-                   <Container className="py-5 bg-warning text-default font-weight-bolder">
-                   <Form className="auto " style={{fontSize:'17px'}} action="/home">
+                   <Container style={{marginTop:'100px'}} className="py-5 bg-warning text-default font-weight-bolder">
+                   <Form className="auto " style={{fontSize:'17px'}} >
    
                         <Form.Group controlId="formBasicPassword">
                          <Form.Label>Username</Form.Label>

@@ -23,10 +23,10 @@ class App extends Component {
             <Switch>
              <Route path="/chatapp/" component={Home} exact/>
              <Route path="/" component={Home} exact/>
-             <Route path="/home" component={About}/>
-             <Route path="/contact" component={Contact}/>
-             <Route path="/save" component={Save}/>
-             <Route path="/profile" component={Profile}/>
+             <Route path="/home" component={About} exact/>
+             <Route path="/contact" component={Contact} exact/>
+             <Route path="/save" component={Save} exact/>
+             <Route path="/profile" component={Profile} exact/>
             {/* <Route component={Error}/> */}
            </Switch>
         </div> 
