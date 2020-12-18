@@ -120,12 +120,12 @@ const onChangeStatus = e => {
                <div id="postbox" style={{background: "rgba(var(--b3f,250,250,250),1)"}} >
                   <CardGroup className="flex-column">
                   {/* <Cards imgsrc={picture && picture} /> */}
-                      <Cards username="Meraj"   imgsrc={img1} caption="Nice picture"/>
-                      <Cards username="Akhlakh" imgsrc={img2} caption="Wonderfull"/>
-                      <Cards username="Rehan"   imgsrc={img3} caption="Good work"/>
-                      <Cards username="Sajid"   imgsrc={img4} caption="Nice"/>
-                      <Cards username="Anam"    imgsrc={img1} caption="Amazing"/>
-                      <Cards username="Aayan"   imgsrc={img2} caption="Good"/>
+                      <Cards username="Adam"   imgsrc={img1} caption="Nice picture"/>
+                      <Cards username="Smith" imgsrc={img2} caption="Wonderfull"/>
+                      <Cards username="Albert"   imgsrc={img3} caption="Good work"/>
+                      <Cards username="Tony"   imgsrc={img4} caption="Nice"/>
+                      <Cards username="Edison"    imgsrc={img1} caption="Amazing"/>
+                      <Cards username="Einstein"   imgsrc={img2} caption="Good"/>
                   </CardGroup>                  
                 </div>
             </Col>

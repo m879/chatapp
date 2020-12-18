@@ -95,8 +95,6 @@ const Profile = (props) => {
                             Submit
                           </Button>
                      </Form>
-                    
-
                  </Modal.Body>
                </Modal>
 
@@ -104,7 +102,6 @@ const Profile = (props) => {
 
 
             <Col  xs={12} lg={6} className="py-4" id="profiledetails">
-
                <div id="mypost" style={{height:'600px'}} className="py-4">
                   <h4 className="text-center">Posts</h4>
                </div>
@@ -112,145 +109,39 @@ const Profile = (props) => {
                   <h4 className="text-center">Followers</h4>
                   <div className="py-4">
                      <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
+                        <h4><img src={img1} id="personimg"  ></img>Albert</h4>
                         <div className="ml-auto" style={{height:'30px'}}>
                         <Button className="mx-2" ><span>125</span><span>Following</span></Button>
                         <Button className="mx-2"><span>125</span><span>Followers</span></Button>
                         </div>    
                      </div>
                      <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
+                        <h4><img src={img1} id="personimg"  ></img>John</h4>
                         <div className="ml-auto" style={{height:'30px'}}>
                         <Button className="mx-2" ><span>125</span><span>Following</span></Button>
                         <Button className="mx-2"><span>125</span><span>Followers</span></Button>
                         </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     
+                     </div>                     
                  </div>
-
-
-
-
                </div>
                <div id="following" style={{height:'600px'}} className="py-4">
                   <h4 className="text-center">Following</h4>
-
-               <div className="py-4">
-                  <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
+                  <div className="py-4">
                      <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                     <div className="d-flex">
-                        <h4><img src={img1} id="personimg"  ></img>Meraj</h4>
-                        <div className="ml-auto" style={{height:'30px'}}>
-                        <Button className="mx-2" ><span>125</span><span>Following</span></Button>
-                        <Button className="mx-2"><span>125</span><span>Followers</span></Button>
-                        </div>    
-                     </div>
-                 
-                 </div>
-
+                           <h4><img src={img1} id="personimg"  ></img>Blair</h4>
+                           <div className="ml-auto" style={{height:'30px'}}>
+                           <Button className="mx-2" ><span>125</span><span>Following</span></Button>
+                           <Button className="mx-2"><span>125</span><span>Followers</span></Button>
+                           </div>    
+                        </div>
+                        <div className="d-flex">
+                           <h4><img src={img1} id="personimg"  ></img>Tony</h4>
+                           <div className="ml-auto" style={{height:'30px'}}>
+                           <Button className="mx-2" ><span>125</span><span>Following</span></Button>
+                           <Button className="mx-2"><span>125</span><span>Followers</span></Button>
+                           </div>    
+                        </div>
+                  </div>
                </div>
               </Col>
 

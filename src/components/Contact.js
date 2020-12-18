@@ -14,9 +14,9 @@ const Contact = () => {
  
    const [input,setInput]=React.useState(' ');
    const [messages,setMessages]=React.useState([
-      {username:'Meraj',text:"Welcome"},
-      {username:'Akhlakh',text:"Hello"},
-      {username:'Rehan',text:"Hi Guy"}]);
+      {username:'Ron',text:"Welcome"},
+      {username:'Albert',text:"Hello"},
+      {username:'John',text:"Hi Guy"}]);
    const [username,setUsername]=React.useState('');
 
    // console.log(messages);
@@ -61,11 +61,11 @@ const Contact = () => {
                   {/* // onChange={event=>setUsername(event.target.value)} */}
                   {/* //  ></input> */}
                   <div className="d-flex"><h4><img src={img1} id="personimg" ></img>{username}</h4></div>
-                 <div className="d-flex"><h4><img src={img1} id="personimg" ></img>Meraj</h4></div>
-                 <div className="d-flex"><h4><img src={img1} id="personimg" ></img>Meraj</h4></div>
-                 <div className="d-flex"><h4><img src={img1} id="personimg" ></img>Meraj</h4></div>
-                 <div className="d-flex"><h4><img src={img1} id="personimg" ></img>Meraj</h4></div>
-                 <div className="d-flex"><h4><img src={img1} id="personimg" ></img>Meraj</h4></div>
+                 <div className="d-flex"><h4><img src={img1} id="personimg" ></img>Marry</h4></div>
+                 <div className="d-flex"><h4><img src={img1} id="personimg" ></img>Ron</h4></div>
+                 <div className="d-flex"><h4><img src={img1} id="personimg" ></img>Albert</h4></div>
+                 <div className="d-flex"><h4><img src={img1} id="personimg" ></img>Tony</h4></div>
+                 <div className="d-flex"><h4><img src={img1} id="personimg" ></img>Gilbert</h4></div>
                </div>  
               </Col>
               <Col  xs={12} lg={8}  >
