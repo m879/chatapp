@@ -2,6 +2,7 @@ import React from 'react';
 
 import {Form,Container,Row,Col,Button} from 'react-bootstrap';
 import  Username from './Username'; 
+import { NavLink } from 'react-router-dom';
 
 
 const Home = () => {
@@ -37,15 +38,17 @@ const Home = () => {
                          onChange={event=>setInput(event.target.value)}
                          type="text" placeholder="Username" required/>
                        </Form.Group>
-                            <Button  
+                       <NavLink to="/home" exact >
+                       <Button  
                             // onClick={sendMessage} 
                             variant="primary" type="submit" size="lg" className=" flex-center flex-auto ">
                             Sign In
                             </Button>
+                       </NavLink>
                     </Form>
-                    {
+                    {/* {
                         <Username text={input}/>
-                    } 
+                    }  */}
                    </Container>
                </Col>
                <Col lg={3}></Col>
