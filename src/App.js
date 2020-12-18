@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import Error from './components/Error';
+// import Error from './components/Error';
 import Save from './components/Save';
 import Profile from './components/Profile';
 // import Navigation from './components/Navigation';
@@ -26,7 +26,7 @@ class App extends Component {
              <Route path="/contact" component={Contact}/>
              <Route path="/save" component={Save}/>
              <Route path="/profile" component={Profile}/>
-            <Route component={Error}/>
+            {/* <Route component={Error}/> */}
            </Switch>
         </div> 
       </BrowserRouter>
